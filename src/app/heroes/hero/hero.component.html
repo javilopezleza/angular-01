@@ -1,0 +1,24 @@
+<h1>{{charName}}</h1>
+
+<dl>
+    <td>Nombre:</td>
+    <dd>{{charName}}</dd>
+
+    <td>Nivel</td>
+    <dd>{{level}}</dd>
+
+    <td>Funcion</td>
+    <dd>{{getName()}}</dd>
+
+    <td>Capitalizado</td>
+    <dd>{{ capitalizedName }}</dd>
+</dl>
+
+
+<button (click)="changeName()">
+    Cambiar Personaje
+</button>
+
+<button (click)="changeLevel()">
+    Cambiar Nivel
+</button>
