@@ -8,7 +8,7 @@ import { Component } from "@angular/core";
 })
 export class HeroComponent {
     charName: string = 'Agaporni';
-    level: number = 60;
+    level: number = 70;
 
 
     get capitalizedName(): string {
@@ -24,7 +24,7 @@ export class HeroComponent {
     }
 
     changeLevel(): void {
-        this.level = 50;
+        this.level = 60;
     }
 
 }
